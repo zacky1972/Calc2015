@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <Foundation/Foundation.h>
 
 @interface ViewController ()
 
@@ -14,14 +15,29 @@
 
 @implementation ViewController
 
+- (void)initButtonTargetToPushButton {
+    id object;
+    NSEnumerator* enumerator = self.view.subviews.objectEnumerator;
+    while (object = [enumerator nextObject]) {
+        if([object isMemberOfClass:[UIButton class]]) {
+            [object addTarget:self action:@selector(pushButton:) forControlEvents:UIControlEventTouchUpInside];
+        }
+    }
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [self initButtonTargetToPushButton];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)pushButton:(id)sender {
+    NSLog(@"pushed");
 }
 
 @end

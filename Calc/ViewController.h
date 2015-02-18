@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)pushButton:(id)sender;
 
 @end
 
