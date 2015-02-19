@@ -14,17 +14,18 @@
 
 - (id)init {
     if(self = [super init]) {
+        Number* number = [[Number alloc] initWithString:@"number"];
         self.nameToSingleton = [NSDictionary dictionaryWithObjectsAndKeys:
-                                [[Number alloc] initWithString:@"0"], @"0",
-                                [[Number alloc] initWithString:@"1"], @"1",
-                                [[Number alloc] initWithString:@"2"], @"2",
-                                [[Number alloc] initWithString:@"3"], @"3",
-                                [[Number alloc] initWithString:@"4"], @"4",
-                                [[Number alloc] initWithString:@"5"], @"5",
-                                [[Number alloc] initWithString:@"6"], @"6",
-                                [[Number alloc] initWithString:@"7"], @"7",
-                                [[Number alloc] initWithString:@"8"], @"8",
-                                [[Number alloc] initWithString:@"9"], @"9",
+                                number, @"0",
+                                number, @"1",
+                                number, @"2",
+                                number, @"3",
+                                number, @"4",
+                                number, @"5",
+                                number, @"6",
+                                number, @"7",
+                                number, @"8",
+                                number, @"9",
                                 [[AllClear alloc] initWithString:@"AllClear"], @"AC",
                             nil];
     }
