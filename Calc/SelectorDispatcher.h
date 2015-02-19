@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Dispatcher : NSObject
+@interface SelectorDispatcher : NSObject
 
 @property NSDictionary* nameToSelector;
 

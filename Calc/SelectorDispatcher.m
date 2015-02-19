@@ -6,9 +6,9 @@
 //  Copyright (c) 2015年 zacky1972. All rights reserved.
 //
 
-#import "Dispatcher.h"
+#import "SelectorDispatcher.h"
 
-@implementation Dispatcher
+@implementation SelectorDispatcher
 
 - (id)init {
     if(self = [super init]) {

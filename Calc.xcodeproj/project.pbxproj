@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		956072591A95630900126AE6 /* Dispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 956072581A95630900126AE6 /* Dispatcher.m */; };
+		956072591A95630900126AE6 /* SelectorDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 956072581A95630900126AE6 /* SelectorDispatcher.m */; };
 		9577F3611A9486E000CBFBA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9577F3601A9486E000CBFBA6 /* main.m */; };
 		9577F3641A9486E000CBFBA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9577F3631A9486E000CBFBA6 /* AppDelegate.m */; };
 		9577F3671A9486E000CBFBA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9577F3661A9486E000CBFBA6 /* ViewController.m */; };
@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		956072571A95630900126AE6 /* Dispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dispatcher.h; sourceTree = "<group>"; };
-		956072581A95630900126AE6 /* Dispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dispatcher.m; sourceTree = "<group>"; };
+		956072571A95630900126AE6 /* SelectorDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectorDispatcher.h; sourceTree = "<group>"; };
+		956072581A95630900126AE6 /* SelectorDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectorDispatcher.m; sourceTree = "<group>"; };
 		9577F35B1A9486E000CBFBA6 /* Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9577F35F1A9486E000CBFBA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9577F3601A9486E000CBFBA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,8 +89,8 @@
 				9577F3651A9486E000CBFBA6 /* ViewController.h */,
 				9577F3661A9486E000CBFBA6 /* ViewController.m */,
 				9577F3681A9486E000CBFBA6 /* Main.storyboard */,
-				956072571A95630900126AE6 /* Dispatcher.h */,
-				956072581A95630900126AE6 /* Dispatcher.m */,
+				956072571A95630900126AE6 /* SelectorDispatcher.h */,
+				956072581A95630900126AE6 /* SelectorDispatcher.m */,
 				9577F36B1A9486E000CBFBA6 /* Images.xcassets */,
 				9577F36D1A9486E000CBFBA6 /* LaunchScreen.xib */,
 				9577F35E1A9486E000CBFBA6 /* Supporting Files */,
@@ -226,7 +226,7 @@
 			files = (
 				9577F3671A9486E000CBFBA6 /* ViewController.m in Sources */,
 				9577F3641A9486E000CBFBA6 /* AppDelegate.m in Sources */,
-				956072591A95630900126AE6 /* Dispatcher.m in Sources */,
+				956072591A95630900126AE6 /* SelectorDispatcher.m in Sources */,
 				9577F3611A9486E000CBFBA6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
