@@ -28,7 +28,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    _selectorDispatcher = [SelectorDispatcher new];
+    self.selectorDispatcher = [SelectorDispatcher new];
+    self.classDispatcher = [ClassDispatcher new];
     
     [self initButtonTargetToPushButton];
 }
@@ -38,7 +39,9 @@
 }
 
 - (IBAction)pushButton:(id)sender {
-    [_dispatcher push:[sender titleLabel].text];
+    NSString* name = [sender titleLabel].text;
+    [self.selectorDispatcher push:name];
+    [self.classDispatcher push:name];
 }
 
 @end

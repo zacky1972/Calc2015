@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		952BDC681A9616EF008595AF /* ClassDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 952BDC671A9616EF008595AF /* ClassDispatcher.m */; };
+		952BDC6B1A96171C008595AF /* Element.m in Sources */ = {isa = PBXBuildFile; fileRef = 952BDC6A1A96171C008595AF /* Element.m */; };
+		952BDC6E1A961798008595AF /* Number.m in Sources */ = {isa = PBXBuildFile; fileRef = 952BDC6D1A961798008595AF /* Number.m */; };
+		952BDC711A961E41008595AF /* AllClear.m in Sources */ = {isa = PBXBuildFile; fileRef = 952BDC701A961E41008595AF /* AllClear.m */; };
 		956072591A95630900126AE6 /* SelectorDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 956072581A95630900126AE6 /* SelectorDispatcher.m */; };
 		9577F3611A9486E000CBFBA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9577F3601A9486E000CBFBA6 /* main.m */; };
 		9577F3641A9486E000CBFBA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9577F3631A9486E000CBFBA6 /* AppDelegate.m */; };
@@ -28,6 +32,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		952BDC661A9616EE008595AF /* ClassDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassDispatcher.h; sourceTree = "<group>"; };
+		952BDC671A9616EF008595AF /* ClassDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassDispatcher.m; sourceTree = "<group>"; };
+		952BDC691A96171C008595AF /* Element.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Element.h; sourceTree = "<group>"; };
+		952BDC6A1A96171C008595AF /* Element.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Element.m; sourceTree = "<group>"; };
+		952BDC6C1A961798008595AF /* Number.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Number.h; sourceTree = "<group>"; };
+		952BDC6D1A961798008595AF /* Number.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Number.m; sourceTree = "<group>"; };
+		952BDC6F1A961E41008595AF /* AllClear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllClear.h; sourceTree = "<group>"; };
+		952BDC701A961E41008595AF /* AllClear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllClear.m; sourceTree = "<group>"; };
 		956072571A95630900126AE6 /* SelectorDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectorDispatcher.h; sourceTree = "<group>"; };
 		956072581A95630900126AE6 /* SelectorDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectorDispatcher.m; sourceTree = "<group>"; };
 		9577F35B1A9486E000CBFBA6 /* Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calc.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +99,14 @@
 				9577F3621A9486E000CBFBA6 /* AppDelegate.h */,
 				9577F3631A9486E000CBFBA6 /* AppDelegate.m */,
 				9577F3651A9486E000CBFBA6 /* ViewController.h */,
+				952BDC661A9616EE008595AF /* ClassDispatcher.h */,
+				952BDC671A9616EF008595AF /* ClassDispatcher.m */,
+				952BDC6F1A961E41008595AF /* AllClear.h */,
+				952BDC701A961E41008595AF /* AllClear.m */,
+				952BDC691A96171C008595AF /* Element.h */,
+				952BDC6C1A961798008595AF /* Number.h */,
+				952BDC6D1A961798008595AF /* Number.m */,
+				952BDC6A1A96171C008595AF /* Element.m */,
 				9577F3661A9486E000CBFBA6 /* ViewController.m */,
 				9577F3681A9486E000CBFBA6 /* Main.storyboard */,
 				956072571A95630900126AE6 /* SelectorDispatcher.h */,
@@ -224,8 +244,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				952BDC6B1A96171C008595AF /* Element.m in Sources */,
 				9577F3671A9486E000CBFBA6 /* ViewController.m in Sources */,
 				9577F3641A9486E000CBFBA6 /* AppDelegate.m in Sources */,
+				952BDC681A9616EF008595AF /* ClassDispatcher.m in Sources */,
+				952BDC6E1A961798008595AF /* Number.m in Sources */,
+				952BDC711A961E41008595AF /* AllClear.m in Sources */,
 				956072591A95630900126AE6 /* SelectorDispatcher.m in Sources */,
 				9577F3611A9486E000CBFBA6 /* main.m in Sources */,
 			);
