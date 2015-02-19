@@ -30,6 +30,7 @@
     
     self.selectorDispatcher = [SelectorDispatcher new];
     self.classDispatcher = [ClassDispatcher new];
+    self.singletonDispatcher = [SingletonDispatcher new];
     
     [self initButtonTargetToPushButton];
 }
@@ -42,6 +43,7 @@
     NSString* name = [sender titleLabel].text;
     [self.selectorDispatcher push:name];
     [self.classDispatcher push:name];
+    [self.singletonDispatcher push:name];
 }
 
 @end

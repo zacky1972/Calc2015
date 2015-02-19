@@ -9,11 +9,13 @@
 #import <UIKit/UIKit.h>
 #import "SelectorDispatcher.h"
 #import "ClassDispatcher.h"
+#import "SingletonDispatcher.h"
 
 @interface ViewController : UIViewController
 
 @property SelectorDispatcher* selectorDispatcher;
 @property ClassDispatcher* classDispatcher;
+@property SingletonDispatcher* singletonDispatcher;
 
 - (IBAction)pushButton:(id)sender;
 

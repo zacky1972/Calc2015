@@ -19,6 +19,7 @@
 		9577F36C1A9486E000CBFBA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9577F36B1A9486E000CBFBA6 /* Images.xcassets */; };
 		9577F36F1A9486E000CBFBA6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9577F36D1A9486E000CBFBA6 /* LaunchScreen.xib */; };
 		9577F37B1A9486E000CBFBA6 /* CalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9577F37A1A9486E000CBFBA6 /* CalcTests.m */; };
+		959E09A51A9696FE00F4EF54 /* SingletonDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 959E09A41A9696FE00F4EF54 /* SingletonDispatcher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		9577F3741A9486E000CBFBA6 /* CalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9577F3791A9486E000CBFBA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9577F37A1A9486E000CBFBA6 /* CalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalcTests.m; sourceTree = "<group>"; };
+		959E09A31A9696FE00F4EF54 /* SingletonDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonDispatcher.h; sourceTree = "<group>"; };
+		959E09A41A9696FE00F4EF54 /* SingletonDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonDispatcher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,8 @@
 			children = (
 				9577F3621A9486E000CBFBA6 /* AppDelegate.h */,
 				9577F3631A9486E000CBFBA6 /* AppDelegate.m */,
+				959E09A31A9696FE00F4EF54 /* SingletonDispatcher.h */,
+				959E09A41A9696FE00F4EF54 /* SingletonDispatcher.m */,
 				9577F3651A9486E000CBFBA6 /* ViewController.h */,
 				952BDC661A9616EE008595AF /* ClassDispatcher.h */,
 				952BDC671A9616EF008595AF /* ClassDispatcher.m */,
@@ -249,6 +254,7 @@
 				9577F3641A9486E000CBFBA6 /* AppDelegate.m in Sources */,
 				952BDC681A9616EF008595AF /* ClassDispatcher.m in Sources */,
 				952BDC6E1A961798008595AF /* Number.m in Sources */,
+				959E09A51A9696FE00F4EF54 /* SingletonDispatcher.m in Sources */,
 				952BDC711A961E41008595AF /* AllClear.m in Sources */,
 				956072591A95630900126AE6 /* SelectorDispatcher.m in Sources */,
 				9577F3611A9486E000CBFBA6 /* main.m in Sources */,
