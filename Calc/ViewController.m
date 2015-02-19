@@ -28,7 +28,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    _dispatcher = [SelectorDispatcher new];
+    _selectorDispatcher = [SelectorDispatcher new];
     
     [self initButtonTargetToPushButton];
 }

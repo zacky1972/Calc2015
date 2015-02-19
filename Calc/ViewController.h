@@ -11,7 +11,7 @@
 
 @interface ViewController : UIViewController
 
-@property SelectorDispatcher* dispatcher;
+@property SelectorDispatcher* selectorDispatcher;
 
 - (IBAction)pushButton:(id)sender;
 
