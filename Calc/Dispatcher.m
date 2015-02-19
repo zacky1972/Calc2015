@@ -10,8 +10,37 @@
 
 @implementation Dispatcher
 
-- (void)push:(NSString *)buttonName {
-    NSLog(@"%@", buttonName);
+- (id)init {
+    if(self = [super init]) {
+        self.nameToSelector = [NSDictionary dictionaryWithObjectsAndKeys:
+                               @"pushNumber:", @"0",
+                               @"pushNumber:", @"1",
+                               @"pushNumber:", @"2",
+                               @"pushNumber:", @"3",
+                               @"pushNumber:", @"4",
+                               @"pushNumber:", @"5",
+                               @"pushNumber:", @"6",
+                               @"pushNumber:", @"7",
+                               @"pushNumber:", @"8",
+                               @"pushNumber:", @"9",
+                               @"allClear", @"AC",
+                               nil];
+    }
+    return self;
 }
+
+- (void)push:(NSString *)buttonName {
+    [self performSelector:NSSelectorFromString([self.nameToSelector objectForKey:buttonName])
+               withObject:buttonName afterDelay:0.0];
+}
+
+- (void)pushNumber:(NSString *)number {
+    NSLog(@"%@", number);
+}
+
+- (void)allClear {
+    NSLog(@"all clear");
+}
+
 
 @end

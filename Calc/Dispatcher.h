@@ -10,6 +10,8 @@
 
 @interface Dispatcher : NSObject
 
+@property NSDictionary* nameToSelector;
+
 - (void)push:(NSString*)buttonName;
 
 @end
