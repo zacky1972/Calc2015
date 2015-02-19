@@ -28,16 +28,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    _dispatcher = [Dispatcher new];
+    
     [self initButtonTargetToPushButton];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (IBAction)pushButton:(id)sender {
-    NSLog(@"pushed");
+    [_dispatcher push:[sender titleLabel].text];
 }
 
 @end

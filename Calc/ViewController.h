@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Dispatcher.h"
 
 @interface ViewController : UIViewController
+
+@property Dispatcher* dispatcher;
 
 - (IBAction)pushButton:(id)sender;
 
